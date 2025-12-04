@@ -16,9 +16,11 @@
 
 // a = a + b;
 // b = a - b;
-// a = a -b;
-// console.log(a)
-// console.log(b)
+// a = a - b;
+
+// console.log(a);
+// console.log(b);
+
 
 
 // Problem 3 — Remove First Element Using Rest
@@ -35,32 +37,26 @@
 
 // Merge:
 
-const a = { x: 1 };
-const b = { y: 2 };
-const c = { z: 3 };
+// const a = { x: 1 };
+// const b = { y: 2 };
+// const c = { z: 3 };
 
-const d = {...a, ...b, ...c}
-console.log(d)
+// const d = {...a, ...b, ...c}
+// console.log(d)
+
 // Problem 5 — Logical Assignment
-
 // Given:
-
 // let username = "";
-// let nickname = "Ankit";
+// let nickname = "Build";
 
-
-// Using ONLY:
-
-// ||=
-
-// &&=
-
-// ??=
-
-// Make username become "Ankit".
+// // Using ONLY:
+// console.log(username || nickname);
+// username = "Ankit"
+// console.log( username && nickname)
+// username = null;
+// console.log(username ?? nickname)
 
 // Problem 6 — Deep Destructuring
-
 // Given:
 
 // const user = {
@@ -71,19 +67,19 @@ console.log(d)
 //   }
 // };
 
+// const {
+//   address: {
+//     city: obj3,
+//     pin: obj4
+//   }
+// } = user;
 
-// Extract:
-
-// city = "Delhi"
-// pin = 110001
-
-
-// Using nested destructuring.
+// console.log(obj3);
+// console.log(obj4); 
 
 // Problem 7 — Function With Rest Parameters
 
 // Create:
-
 // function multiply(multiplier, ...nums)
 
 
