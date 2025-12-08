@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+}
+
+#myCount{
+  font-size: 10em;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+#container{
+  text-align: center;
+}
+
+.buttons{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgound-color 0.25s; 
+}
+.buttons:hover{
+  background-color: rgb(19, 169, 228);
+}
